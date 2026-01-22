@@ -1,0 +1,33 @@
+{
+  "name": "cron_parser",
+  "version": "1.0.0",
+  "description": "A small command-line tool that reads a cron schedule and shows when it will run.",
+  "keywords": [
+    "Cron",
+    "Parser"
+  ],
+  "homepage": "https://github.com/DIPANKAR07/corn_parser#readme",
+  "bugs": {
+    "url": "https://github.com/DIPANKAR07/corn_parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIPANKAR07/corn_parser.git"
+  },
+  "license": "ISC",
+  "author": "Dipankar Deb",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
